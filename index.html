@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Yash Shaha - Front-End Developer Resume</title>
+  <!-- Google Fonts & simple reset -->
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="resume-card">
+    <div class="resume-inner">
+      <!-- dark mode toggle button (small interactive JS) -->
+      <div class="dark-mode-toggle">
+        <button id="mode-toggle" aria-label="Switch dark/light mode">🌓 Dark/Light mode</button>
+      </div>
+
+      <!-- header: name + contacts -->
+      <div class="header">
+        <div class="name-title">
+          <h1>Shaha Yash Harshvardhan</h1>
+          <p>Front-End Developer (React · JavaScript · HTML/CSS)</p>
+        </div>
+        <div class="contact-info">
+          <div>📧 <a href="mailto:yashshaha999@gmail.com">yashshaha999@gmail.com</a></div>
+          <div>📞 +91 9324077276</div>
+          <div>💻 <a href="#" target="_blank">Github</a> | <a href="#" target="_blank">LinkedIn</a></div>
+        </div>
+      </div>
+
+      <!-- SUMMARY Section -->
+      <div class="section">
+        <div class="section-title">SUMMARY</div>
+        <div class="summary-text">
+          Motivated front-end development learner with hands-on experience building simple and responsive web pages
+          using HTML and CSS. Familiar with structuring clean layouts and applying basic styling principles through
+          personal projects. Eager to gain real-world experience, improve technical skills, and contribute to a
+          collaborative development team. Learning Node.js, Express.js
+        </div>
+      </div>
+
+      <!-- PROJECTS Section (exactly as per PDF: Crypto Tracker, Therapy Homepage, Favorite Movies App) -->
+      <div class="section">
+        <div class="section-title">PROJECTS</div>
+
+        <!-- Crypto Tracker -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-name">Crypto Tracker - Real-time Cryptocurrency Dashboard</span>
+            <div class="project-links">
+              <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+            </div>
+          </div>
+          <div class="project-desc">
+            Built with React and Vite to display real-time cryptocurrency prices in INR with live market data.
+            Implemented key features including search, sorting (rank, price, market cap) and toggleable views. Designed
+            dynamic coin detail pages with 7-day interactive price charts. Applied responsive UI design with clean
+            layout and consistent styling for optimal usability.
+            <div class="tech-badge">React · Vite · Chart.js · REST API</div>
+          </div>
+        </div>
+
+        <!-- Therapy Homepage -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-name">Therapy Homepage - Designed a responsive mental health homepage using
+              React</span>
+            <div class="project-links">
+              <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+            </div>
+          </div>
+          <div class="project-desc">
+            Built modular React components including Navbar, Hero section, About section, and Contact area. Implemented
+            component-based architecture for better code organization and reusability. Applied responsive design
+            principles to ensure compatibility across devices. Deployed using GitHub Pages to showcase React front-end
+            development skills.
+            <div class="tech-badge">React · CSS Modules · GitHub Pages</div>
+          </div>
+        </div>
+
+        <!-- Favorite Movies App -->
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-name">Favorite Movies App - Designed and developed a web application to manage and
+              display favorite movies</span>
+            <div class="project-links">
+              <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+            </div>
+          </div>
+          <div class="project-desc">
+            Integrated movie API to fetch and display movie data dynamically. Enabled users to add movies to a favorites
+            list and remove them as desired. Focused on responsive design, clean layout, and user-friendly interface for
+            seamless interaction.
+            <div class="tech-badge">JavaScript · Movie API · LocalStorage · CSS Grid</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION Section -->
+      <div class="section">
+        <div class="section-title">EDUCATION</div>
+        <div class="edu-item">
+          <div>
+            <span class="edu-title">Bachelor of Technology in Computer Science & Engineering</span>
+            <div class="edu-meta">Walchand Institute of Technology, Solapur</div>
+          </div>
+          <div class="edu-detail">CGPA: 8.87 | Expected 2027</div>
+        </div>
+        <div class="edu-item">
+          <div>
+            <span class="edu-title">Higher Secondary (12th)</span>
+            <div class="edu-meta">Walchand College of Arts and Science, Solapur</div>
+          </div>
+          <div class="edu-detail">—</div>
+        </div>
+      </div>
+
+      <!-- SKILLS & CRITIFICATIONS (Certifications) combined layout like original -->
+      <div class="section">
+        <div class="section-title">SKILLS & CERTIFICATIONS</div>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h4>💻 Programming & Languages</h4>
+            <div class="skill-items">C, Python, Java (Basic), HTML, CSS, JavaScript</div>
+          </div>
+          <div class="skill-category">
+            <h4>🗄️ Databases & Tools</h4>
+            <div class="skill-items">MySQL, Git, GitHub</div>
+          </div>
+          <div class="skill-category">
+            <h4>⚛️ Frameworks & Libraries</h4>
+            <div class="skill-items">React.js, Angular (Basic), Node.js (learning)</div>
+          </div>
+          <div class="skill-category">
+            <h4>📜 Certifications</h4>
+            <ul class="cert-list">
+              <li>NPTEL: Soft Skills Development</li>
+              <li>NPTEL: Programming with Generative AI</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Additional note: Express.js learning mentioned in summary, but also show here for completeness -->
+        <div style="margin-top: 0.6rem; font-size: 0.75rem; color: #54708f; text-align: right;">* Currently expanding:
+          Node.js, Express.js</div>
+      </div>
+
+      <!-- subtle footer line: extra credentials exactly as per pdf spelling "CRITIFICATIONS" is shown in cert list -->
+      <hr>
+      <div style="font-size: 0.7rem; text-align: center; color: #6c86a3;">Portfolio & projects available on GitHub |
+        responsive design & modern UI</div>
+    </div>
+  </div>
+
+  <!-- simple JavaScript for dark mode toggle & small interactive effect -->
+  <script src="script.js"></script>
+</body>
+
+</html>
